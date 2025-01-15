@@ -26,14 +26,14 @@ Notacion:
 
 ### Validacion
 
-[4] (F) Crea una nueva ruta llamada "registre", y crea una pagina con los siguientes campos:
+[4] (F) Crea una nueva ruta llamada "registre", y crea una pagina con los siguientes campos:(ruta registro AQUI EMPIEZA LO QUE ES EL REGISTRO)
         username
         password
         first_name
         email
         postal
 
-        El formulario tiene que enviar los resultados a la ruta "registre-session.php"
+        El formulario tiene que enviar los resultados a la ruta "registre-session.php"()
         Utiliza la siguiente plantilla:
 
         ```
@@ -81,7 +81,7 @@ Notacion:
         Si no se podido hacer un insert, mostrar un error personalizado:
                 $error = "No se pudo registrar el usuario, el usuario ya existe";
 
-[9] (F) Crea una pagina (resource, MVC) que muestre todos los productos
+[9] (F) Crea una pagina (resource, MVC) que muestre todos los productos(MUESTRA TODOS LOS PRODUCTOS)
 
 [10] (M) Crea una pagina (resource, MVC) que muestre los productos por categoria, pasando por parametro "get" la categoria que queremos mostrar.
         La consulta tambien tiene que ser parametrizada. Si no se indica la categoria en la url muestra la categoria 1 por defecto.

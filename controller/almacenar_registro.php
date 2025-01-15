@@ -48,7 +48,7 @@
             $password = password_hash($_SESSION['password'], PASSWORD_DEFAULT);
             //Conexion a la base de datos
             $conection = DB::getInstance();
-            //aqui llama a la funcion de registrar del model usuario.php y 
+            //aqui llama a la funcion de registrar del model usuario.php ESTA LINEA ES LA IMORTANTE
             $registre = registrar($conection, $_SESSION['username'], $password);
 
             if ($registre) {
@@ -63,6 +63,6 @@
     } else {
         $mensaje = "Error en el registro, faltan campos.";
     }
-    
+    //Llama la vista de llistar registro
     include __DIR__ . '/../views/llistar_registre.php';
 ?>
